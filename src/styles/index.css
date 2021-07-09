@@ -1,0 +1,49 @@
+:root {
+  --main-color: #de3c4b;
+  --black: #1d1e2c;
+  --black-ligh: #262734;
+  --gray-dark: #a5a6b8;
+  --gray: #ced3dc;
+  --gray-ligh: #f2f6fc;
+}
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("../public/fonts/NotoSansSC-Regular.otf");
+}
+@font-face {
+  font-family: "Noto Sans SC Bold";
+  src: url("../public/fonts/NotoSansSC-Bold.otf");
+}
+body {
+  font-family: "Noto Sans SC";
+}
+a:link,
+a:visited {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--gray-dark);
+}
+a:hover {
+  color: var(--main-color);
+}
+h1 {
+  font-size: 36px;
+  font-family: "Noto Sans SC Bold";
+  color: var(--black);
+}
+h2 {
+  font-size: 24px;
+  color: var(--gray-dark);
+}
+h3 {
+  font-size: 24px;
+  color: var(--black);
+  font-family: "Noto Sans SC Bold";
+}
+input {
+  font-size: 100%;
+  padding: 0 0.5rem;
+}
+input:focus {
+  border: 3hpx solid var(--main-color);
+}
