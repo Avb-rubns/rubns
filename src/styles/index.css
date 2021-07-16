@@ -5,17 +5,19 @@
   --gray-dark: #a5a6b8;
   --gray: #ced3dc;
   --gray-ligh: #f2f6fc;
+  --white: #ffffff;
 }
 @font-face {
   font-family: "Noto Sans SC";
-  src: url("../public/fonts/NotoSansSC-Regular.otf");
+  src: url("public/fonts/NotoSansSC-Regular.otf");
 }
 @font-face {
   font-family: "Noto Sans SC Bold";
-  src: url("../public/fonts/NotoSansSC-Bold.otf");
+  src: url("public/fonts/NotoSansSC-Bold.otf");
 }
 body {
   font-family: "Noto Sans SC";
+  scroll-behavior: smooth;
 }
 a:link,
 a:visited {

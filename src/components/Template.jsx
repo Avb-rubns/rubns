@@ -7,8 +7,8 @@ export default function Template() {
       <header className="header">
         <nav className="nav-menu">
           <a href="/home">Inicio</a>
-          <a href="/home/#about-me">Acerca de mi</a>
-          <a href="/home/#skills">Conocimientos</a>
+          <a href="/home#about-me">Acerca de mi</a>
+          <a href="/home#skills">Conocimientos</a>
           <a href="/notes">Notas</a>
           <a href="/jobs">Proyectos</a>
           <button className="skin">
