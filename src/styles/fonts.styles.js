@@ -1,4 +1,4 @@
-import { css } from "styled-components";
+import { css } from 'styled-components'
 
 export const typography = css`
   /* font Sizes */
@@ -18,4 +18,4 @@ export const typography = css`
     --regular: 400;
     --light: 300;
   }
-`;
+`

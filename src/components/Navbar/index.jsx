@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "wouter";
-import { FiToggleLeft } from "react-icons/fi";
-import { NavbarStyled } from "./navbar.styles";
+import React from 'react'
+import { Link } from 'wouter'
+import { FiToggleLeft } from 'react-icons/fi'
+import { NavbarStyled } from './navbar.styles'
 
-export default function Navbar() {
+export default function Navbar () {
   return (
     <NavbarStyled>
       <nav>
@@ -17,5 +17,5 @@ export default function Navbar() {
         </button>
       </nav>
     </NavbarStyled>
-  );
+  )
 }

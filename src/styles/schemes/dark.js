@@ -1,19 +1,19 @@
 export default {
-  title: "dark",
+  title: 'dark',
   colors: {
     body: {
-      background: "var(--black)",
-      text: "var(--gray-light)",
+      background: 'var(--black)',
+      text: 'var(--gray-light)'
     },
     link: {
-      default: "var(--gray)",
-      hover: "var(--main-color)",
+      default: 'var(--gray)',
+      hover: 'var(--main-color)'
     },
     button: {
       primary: {
-        background: "var(--black)",
-        text: "var(--gray-light)",
-      },
-    },
-  },
-};
+        background: 'var(--black)',
+        text: 'var(--gray-light)'
+      }
+    }
+  }
+}

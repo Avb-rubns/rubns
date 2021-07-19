@@ -1,7 +1,7 @@
-import { createGlobalStyle } from "styled-components";
-import { colors } from "./colors.styles";
-import { typography } from "./fonts.styles";
-import NotoSansSC from "../assets/fonts/NotoSansSC-Regular.otf";
+import { createGlobalStyle } from 'styled-components'
+import { colors } from './colors.styles'
+import { typography } from './fonts.styles'
+import NotoSansSC from '../assets/fonts/NotoSansSC-Regular.otf'
 
 export const GlobalStyle = createGlobalStyle`
   /* Colors variables */
@@ -65,4 +65,4 @@ export const GlobalStyle = createGlobalStyle`
   button {
     cursor: pointer;
   }
-`;
+`

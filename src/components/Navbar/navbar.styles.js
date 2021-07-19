@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const NavbarStyled = styled.header`
   width: 100%;
@@ -7,7 +7,7 @@ export const NavbarStyled = styled.header`
   justify-content: flex-end;
   border-bottom: 1px solid var(--gray);
   font-size: 16px;
-  padding: 0.58rem 0;
+  padding: 1rem 0.75rem;
   position: sticky;
   top: 0;
   background: var(--white);
@@ -15,7 +15,7 @@ export const NavbarStyled = styled.header`
 
   nav {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     grid-auto-flow: column;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ export const NavbarStyled = styled.header`
       grid-auto-flow: column;
       justify-content: center;
       font-size: 22px;
-      color: var(--black-ligh);
+      color: var(--black-light);
       cursor: pointer;
     }
   }
@@ -38,4 +38,4 @@ export const NavbarStyled = styled.header`
       font-size: 0.8rem;
     }
   }
-`;
+`

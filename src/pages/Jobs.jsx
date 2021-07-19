@@ -1,8 +1,8 @@
-import React from "react";
-import Template from "../components/Template";
-import { FiSearch } from "react-icons/fi";
+import React from 'react'
+import Template from '../components/Template'
+import { FiSearch } from 'react-icons/fi'
 
-export default function Jobs() {
+export default function Jobs () {
   return (
     <>
       <Template>
@@ -25,5 +25,5 @@ export default function Jobs() {
         </section>
       </Template>
     </>
-  );
+  )
 }

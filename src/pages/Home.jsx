@@ -1,14 +1,12 @@
-import React from "react";
-import logo from "../assets/images/Logo-light.svg";
-import rubns from "../assets/images/rubns.svg";
-import "../styles/home.css";
-import Template from "../components/Template";
+import React from 'react'
+import '../styles/home.css'
+import Template from '../components/Template'
 import {
   FiArrowDownCircle,
   FiMail,
   FiGithub,
-  FiLinkedin,
-} from "react-icons/fi";
+  FiLinkedin
+} from 'react-icons/fi'
 import {
   SiHtml5,
   SiCss3,
@@ -19,18 +17,18 @@ import {
   SiPython,
   SiMicrosoftsqlserver,
   SiMysql,
-  SiMongodb,
-} from "react-icons/si";
+  SiMongodb
+} from 'react-icons/si'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
       <Template>
         <main>
           <section className="landing">
-            <img src={logo} className="logo" alt="logo" />
+            <img src="/images/Logo-light.svg" className="logo" alt="logo" />
             <h1>Rubén Sánchez Rugerio</h1>
-            <h2 style={{ marginTop: "-0.5rem" }}>Desarrollador de Software</h2>
+            <h2 style={{ marginTop: '-0.5rem' }}>Desarrollador de Software</h2>
             <div className="social-items">
               <a
                 className="box-social"
@@ -65,7 +63,7 @@ export default function Home() {
         <section id="about-me" className="about-me">
           <h3>Acerca de mí</h3>
           <div className="about-me-info">
-            <img src={rubns} className="rubns" alt="logo" />
+            <img src="/images/rubns.svg" className="rubns" alt="logo" />
             <div className="info">
               <div className="biblograph">
                 <h3>Soy</h3>
@@ -135,5 +133,5 @@ export default function Home() {
         </section>
       </Template>
     </>
-  );
+  )
 }
