@@ -9,11 +9,11 @@
 }
 @font-face {
   font-family: "Noto Sans SC";
-  src: url("public/fonts/NotoSansSC-Regular.otf");
+  src: url("../assets/fonts/NotoSansSC-Regular.otf");
 }
 @font-face {
   font-family: "Noto Sans SC Bold";
-  src: url("public/fonts/NotoSansSC-Bold.otf");
+  src: url("../assets/fonts/NotoSansSC-Bold.otf");
 }
 body {
   font-family: "Noto Sans SC";

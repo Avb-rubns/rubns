@@ -1,4 +1,5 @@
-export default {
+// eslint-disable-next-line
+const light = {
   title: "light",
   colors: {
     body: {
@@ -17,3 +18,4 @@ export default {
     },
   },
 };
+export default light;
