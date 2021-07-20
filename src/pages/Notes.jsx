@@ -1,8 +1,8 @@
-import React from "react";
-import Template from "../components/Template";
-import { FiSearch } from "react-icons/fi";
-import "../styles/note.css";
-export default function Notes() {
+import React from 'react'
+import Template from '../components/Template'
+import { FiSearch } from 'react-icons/fi'
+import '../styles/note.css'
+export default function Notes () {
   return (
     <>
       <Template>
@@ -25,5 +25,5 @@ export default function Notes() {
         </section>
       </Template>
     </>
-  );
+  )
 }
