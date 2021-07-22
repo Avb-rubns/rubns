@@ -1,3 +1,4 @@
+
 // eslint-disable-next-line
 const light = {
   title: 'light',
@@ -15,6 +16,9 @@ const light = {
         background: 'var(--white)',
         text: 'var(--black)'
       }
+    },
+    svg: {
+      color: 'var(--black)'
     }
   }
 }
