@@ -32,10 +32,14 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: inherit;
+    color: var(--gray-dark);
     text-decoration: none;
     display: inline-flex;
     cursor: pointer;
+  }
+
+  a:hover {
+    color: var(--main-color);
   }
   * {
     box-sizing: border-box;
