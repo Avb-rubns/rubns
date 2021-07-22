@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/home.css'
 import Template from '../components/Template'
+import Skillbox from 'components/Container-Skill'
 import {
   FiArrowDownCircle,
   FiMail,
@@ -89,46 +90,36 @@ export default function Home () {
         <section id="skills" className="Skills">
           <h3>Conocimientos</h3>
           <div className="grid-skills">
-            <div className="group-skills">
-              <SiHtml5 />
-              <p className="n">HTML 5</p>
-            </div>
-            <div className="group-skills">
+          <Skillbox name="HTML5" >
+            <SiHtml5/>
+          </Skillbox>
+          <Skillbox name="CSS3" >
               <SiCss3 />
-              <p className="n">CSS3</p>
-            </div>
-            <div className="group-skills">
+          </Skillbox>
+            <Skillbox name="JavaScript">
               <SiJavascript />
-              <p className="n">Javascript</p>
-            </div>
-            <div className="group-skills">
+            </Skillbox>
+            <Skillbox name="Git">
               <SiGit />
-              <p className="n">Git</p>
-            </div>
-            <div className="group-skills">
+            </Skillbox>
+            <Skillbox name="Gnu/Bash">
               <SiGnubash />
-              <p className="n">Gnubash</p>
-            </div>
-            <div className="group-skills">
+            </Skillbox>
+            <Skillbox name="Java">
               <SiJava />
-              <p className="n">Java</p>
-            </div>
-            <div className="group-skills">
+            </Skillbox>
+            <Skillbox name="Python">
               <SiPython />
-              <p className="n">Python</p>
-            </div>
-            <div className="group-skills">
-              <SiMicrosoftsqlserver />
-              <p className="n">Microsoft sql server</p>
-            </div>
-            <div className="group-skills">
+            </Skillbox>
+            <Skillbox name="MS SQL Server">
+              <SiMicrosoftsqlserver/>
+            </Skillbox>
+            <Skillbox name="MySQL">
               <SiMysql />
-              <p className="n">Mysql</p>
-            </div>
-            <div className="group-skills">
+            </Skillbox>
+            <Skillbox name="MongoDB">
               <SiMongodb />
-              <p className="n">Mongodb</p>
-            </div>
+            </Skillbox>
           </div>
         </section>
       </Template>
