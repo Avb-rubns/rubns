@@ -26,12 +26,13 @@ export const Container = styled.section`
 
 `
 export const Box = styled.a`
-    display: grid;
-    background-color: var(--gray-ligh);
-    border-radius: 0.5rem;
-    place-items: center;
-    height: 36px;
-    width: 36px;
+  display: grid;
+  background: var(--gray-light);
+  border-radius: 0.5rem;
+  place-items: center;
+  height: 36px;
+  width: 36px;
+
 `
 
 export const Arrow = styled.a`

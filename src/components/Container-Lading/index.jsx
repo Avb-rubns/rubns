@@ -8,13 +8,13 @@ export default function ContainerLading (props) {
             <h2>{props.occupation}</h2>
             <div>
                 <Box href={props.mail} target="_blank" rel="noopener noreferrer" >
-                 <LoaderIcon >{props.children[0] }</LoaderIcon>
+                  <LoaderIcon color="var(--gray-dark)" >{props.children[0] }</LoaderIcon>
                 </Box>
                 <Box href={props.git} target="_blank" rel="noopener noreferrer" >
-                <LoaderIcon >{props.children[1] }</LoaderIcon>
+                  <LoaderIcon color="var(--gray-dark)" >{props.children[1] }</LoaderIcon>
                 </Box>
                 <Box href={props.link} target="_blank" rel="noopener noreferrer" >
-                <LoaderIcon >{props.children[2] }</LoaderIcon>
+                  <LoaderIcon color="var(--gray-dark)" >{props.children[2] }</LoaderIcon>
                 </Box>
             </div>
             <Arrow href="#about-me">
