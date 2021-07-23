@@ -35,6 +35,7 @@ export default function Home () {
          Doloremque corrupti officia qui enim nisi dolor magnam quod
          dicta eligendi, ea repellendus ipsa excepturi vel delectus
          odio iste nobis quaerat voluptas."
+
          education=" Educación"
 
          infoEdu="Lorem ipsum dolor, sit amet consectetur adipisicing elit.
