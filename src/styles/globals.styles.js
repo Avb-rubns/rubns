@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: var(--gray-dark);
+    color: var(--black-light);
     text-decoration: none;
     display: inline-flex;
     cursor: pointer;
