@@ -7,7 +7,7 @@ export default function Navbar () {
   return (
     <NavbarStyled>
       <nav>
-        <Link href="/home">Inicio</Link>
+        <Link href="/home#lading">Inicio</Link>
         <a href="/home#about-me">Acerca de mi</a>
         <a href="/home#skills">Conocimientos</a>
         <Link href="/notes">Notas</Link>
