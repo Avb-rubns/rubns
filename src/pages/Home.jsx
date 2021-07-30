@@ -47,7 +47,6 @@ export default function Home () {
           <ContainerLading
           name="Rubén Sánchez Rugerio"
           occupation ="Desarrollador de Software"
-          id = "lading"
           link= "https://github.com/Avb-rubns"
            >
              <FiMail />

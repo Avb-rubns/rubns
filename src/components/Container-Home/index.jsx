@@ -2,7 +2,6 @@
 import { Section, Article } from './home.styles'
 
 export default function ContainerPage (props) {
-  console.log(props.children)
   return (
     <>
         <main>
