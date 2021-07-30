@@ -52,8 +52,8 @@ export const Article = styled.article`
     align-items: center;
     gap: 2rem;
 
+    /*grid of skills */
     div{
-    color: var(--black);
     width: 80%;
     font-size: 64px;
     display: grid;
