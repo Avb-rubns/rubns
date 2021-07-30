@@ -22,6 +22,7 @@ export default function Notes () {
         </main>
         <section>
           <h3>Resultados de la búsqueda</h3>
+          <div></div>
         </section>
       </Template>
     </>
