@@ -5,12 +5,13 @@ export const NavbarStyled = styled.header`
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid ${({ theme }) => theme.colors.nav.border};
   font-size: 16px;
   padding: 1rem 0.75rem;
   position: sticky;
   top: 0;
-  background: var(--white);
+  background: ${({ theme }) => theme.colors.body.background};
+  color: ${({ theme }) => theme.colors.body.text};
   z-index: 2;
 
   nav {

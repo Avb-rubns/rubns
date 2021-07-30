@@ -19,6 +19,9 @@ const light = {
     },
     svg: {
       color: 'var(--black)'
+    },
+    nav: {
+      border: 'var(--gray)'
     }
   }
 }

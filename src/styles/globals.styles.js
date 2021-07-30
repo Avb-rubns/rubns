@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: var(--black-light);
+    color: ${({ theme }) => theme.colors.body.text};
     text-decoration: none;
     display: inline-flex;
     cursor: pointer;
@@ -40,6 +40,9 @@ export const GlobalStyle = createGlobalStyle`
 
   a:hover {
     color: var(--main-color);
+  }
+  input:focus{
+    border: 2px solid var(--main-color);
   }
   * {
     box-sizing: border-box;

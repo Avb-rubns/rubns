@@ -10,10 +10,14 @@ export default {
       hover: 'var(--main-color)'
     },
     button: {
-      primary: {
-        background: 'var(--black)',
-        text: 'var(--gray-light)'
-      }
+      background: 'var(--black)',
+      text: 'var(--gray-light)'
+    },
+    svg: {
+      color: 'var(--gray-light)'
+    },
+    nav: {
+      border: 'var(--black-light)'
     }
   }
 }
