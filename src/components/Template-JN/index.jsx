@@ -1,6 +1,7 @@
 import { Finds, Header } from './container.styles'
 import Input from 'components/input'
 import Btn from 'components/button'
+import { RenderCard } from 'components/RenderCard'
 
 export default function TemplateJN (props) {
   return (
@@ -14,7 +15,9 @@ export default function TemplateJN (props) {
         </Header>
         <Finds>
           <h3>{props.search}</h3>
-          <div></div>
+          <div>
+            <RenderCard result={props.result.res} />
+          </div>
         </Finds>
         </>
   )
