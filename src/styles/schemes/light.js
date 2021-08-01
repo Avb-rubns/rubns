@@ -22,6 +22,14 @@ const light = {
     },
     nav: {
       border: 'var(--gray)'
+    },
+    card: {
+      background: 'var(--gray-light)',
+      tag: 'var(--gray)'
+    },
+    tag: {
+      background: 'var(--gray)',
+      border: 'var(--gray)'
     }
   }
 }

@@ -18,6 +18,10 @@ export default {
     },
     nav: {
       border: 'var(--black-light)'
+    },
+    card: {
+      background: 'var(--black-light)',
+      tag: 'var(--black)'
     }
   }
 }
