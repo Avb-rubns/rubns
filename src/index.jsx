@@ -4,10 +4,15 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from './styles/globals.styles'
 import Router from './router/Router'
 import Dark from './styles/schemes/dark'
-// import light from 'styles/schemes/light'
+import Light from 'styles/schemes/light'
+
+const THEMES = {
+  Dark,
+  Light
+}
 
 ReactDOM.render(
-  <ThemeProvider theme={Dark}>
+  <ThemeProvider theme={THEMES.Light}>
     <GlobalStyle />
     <Router />
   </ThemeProvider>,
