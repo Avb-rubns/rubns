@@ -5,7 +5,7 @@ export const typography = css`
   :root {
     --h1: 36px;
     --h2: 24px;
-    --h3: 24px;
+    --h3: 20px;
     --s-medium: 1rem;
     --s-normal: 0.875rem;
     --s-small: 0.75rem;
