@@ -2,7 +2,7 @@ import React from 'react'
 import Template from '../components/Template'
 import Skillbox from 'components/Container-Skill'
 import ContainerLading from 'components/Container-Lading'
-import ContainerPage from 'components/Container-Home'
+import ContainerPage from 'components/Container-Page'
 import LoaderSkills from 'components/LoaderSkill'
 import {
   FiArrowDownCircle,
@@ -20,7 +20,8 @@ import {
   SiPython,
   SiMicrosoftsqlserver,
   SiMysql,
-  SiMongodb
+  SiMongodb,
+  SiPhp
 } from 'react-icons/si'
 
 export default function Home () {
@@ -47,7 +48,8 @@ export default function Home () {
           <ContainerLading
           name="Rubén Sánchez Rugerio"
           occupation ="Desarrollador de Software"
-          link= "https://github.com/Avb-rubns"
+          git= "https://github.com/Avb-rubns"
+          link="https://www.linkedin.com/in/rub%C3%A9n-s%C3%A1nchez-rugerio-025588205/"
            >
              <FiMail />
              <FiGithub />
@@ -84,6 +86,9 @@ export default function Home () {
               </Skillbox>
               <Skillbox name="MongoDB">
                 <SiMongodb />
+              </Skillbox>
+              <Skillbox name="PHP">
+                <SiPhp />
               </Skillbox>
           </LoaderSkills>
         </ContainerPage>
