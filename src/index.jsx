@@ -12,7 +12,7 @@ const THEMES = {
 }
 
 ReactDOM.render(
-  <ThemeProvider theme={THEMES.Light}>
+  <ThemeProvider theme={THEMES.Dark}>
     <GlobalStyle />
     <Router />
   </ThemeProvider>,
