@@ -7,11 +7,13 @@ export const Button = styled.button`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: var(--main-color);
-    background-color: ${({ theme }) => theme.colors.body.background} ;
+    
+    color: ${({ theme }) => theme.colors.button.primary.text};
+    background-color: ${props => props.type ? ({ theme }) => theme.colors.button.primary.background : ({ theme }) => theme.colors.button.secondary.background};
+    font-size: ${props => props.size ? props.size + 'px' : '18px'};
+    border: 2px solid ${props => props.type ? ({ theme }) => theme.colors.button.primary.border : ({ theme }) => theme.colors.button.secondary.border};;
+    
     text-decoration: none;
-    border: 1px solid var(--main-color);
     height: 32px;
-    font-size: 18px;
     border-radius: 2px;
 `

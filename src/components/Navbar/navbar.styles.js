@@ -29,7 +29,7 @@ export const NavbarStyled = styled.header`
       grid-auto-flow: column;
       justify-content: center;
       font-size: 22px;
-      color: var(--black-light);
+      color: ${({ theme }) => theme.colors.body.text};
       cursor: pointer;
     }
   }

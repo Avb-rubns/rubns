@@ -21,6 +21,7 @@ export const Header = styled.main`
 `
 
 export const Finds = styled.section`
+padding: 1rem 2rem;
 & > h3{
     padding: 1rem 1rem;
 }
@@ -36,9 +37,9 @@ export const Finds = styled.section`
 }
 
 @media all and (max-width: 768px) {
-        h3 {
-            font-size: 20px;
-            padding: 0 auto;
+        & > h3 {
+            font-size: 18px;
+            text-align: center;
         }
     }
 `

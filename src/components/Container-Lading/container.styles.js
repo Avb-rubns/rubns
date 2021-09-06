@@ -27,11 +27,12 @@ export const Container = styled.section`
 `
 export const Box = styled.a`
   display: grid;
-  background: var(--gray-light);
+  background: ${({ theme }) => theme.colors.socialbox.background};
   border-radius: 0.5rem;
   place-items: center;
   height: 36px;
   width: 36px;
+  color: ${({ theme }) => theme.colors.socialbox.text};
 
 `
 
