@@ -11,10 +11,25 @@ const light = {
       default: 'var(--gray)',
       hover: 'var(--main-color)'
     },
+    input: {
+      text: 'var(--black-light)',
+      background: 'var(--gray-light)'
+    },
     button: {
       primary: {
         background: 'var(--white)',
-        text: 'var(--black)'
+        text: 'var(--main-color)'
+      },
+      secondary: {
+        background: 'var(--gray-light)',
+        text: 'var(--main-color)',
+        border: 'var(--main-color)'
+      },
+      tertiary: {
+        background: 'var(--gray-light)',
+        text: 'var(--gray-dark)',
+        border: 'var(--gray)'
+
       }
     },
     svg: {
@@ -29,7 +44,12 @@ const light = {
     },
     tag: {
       background: 'var(--gray)',
-      border: 'var(--gray)'
+      border: 'var(--gray)',
+      text: 'var(--black-light)'
+    },
+    socialbox: {
+      background: 'var(--gray-light)',
+      text: 'var(--gray-dark)'
     }
   }
 }
