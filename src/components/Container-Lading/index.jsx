@@ -7,7 +7,7 @@ export default function ContainerLading (props) {
             <h1>{props.name}</h1>
             <h2>{props.occupation}</h2>
             <div>
-                <Box href={props.mail} target="_blank" rel="noopener noreferrer" >
+                <Box href={props.mail} target="_blank" rel="noopener nofollow" >
                   <LoaderIcon color="var(--gray-dark)" >{props.children[0] }</LoaderIcon>
                 </Box>
                 <Box href={props.git} target="_blank" rel="noopener noreferrer" >
