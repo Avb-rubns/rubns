@@ -4,7 +4,7 @@ import { Section, Article } from './home.styles'
 export default function ContainerPage (props) {
   return (
     <>
-        <main>
+        <main id="init">
             {props.children[0]}
         </main>
         <Section id="about-me">

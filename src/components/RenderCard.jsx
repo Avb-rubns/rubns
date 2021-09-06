@@ -1,7 +1,6 @@
 import CardInfo from 'components/card'
 
 export function RenderCard ({ result }) {
-  console.log(result.data)
   return (
     <>
       { result.data &&
