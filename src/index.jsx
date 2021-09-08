@@ -1,20 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { ThemeProvider } from 'styled-components'
-import { GlobalStyle } from './styles/globals.styles'
-import Router from './router/Router'
-import Dark from './styles/schemes/dark'
-import Light from 'styles/schemes/light'
+import App from './pages/App'
 
-const THEMES = {
-  Dark,
-  Light
-}
-
-ReactDOM.render(
-  <ThemeProvider theme={THEMES.Dark}>
-    <GlobalStyle />
-    <Router />
-  </ThemeProvider>,
-  document.getElementById('root')
-)
+ReactDOM.render(<App/>, document.getElementById('root'))

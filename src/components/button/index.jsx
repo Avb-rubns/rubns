@@ -16,8 +16,8 @@ export default function Btn (props) {
   return (
         <Button type={props.type} size={props.size} onClick={() => view({ link: props.link, code: props.code })}
           >
-            <LoaderIcon color="var(--main-color)" >{props.children}</LoaderIcon>
-            <p>{props.text ? props.text : 'Buscar'}</p>
+            <LoaderIcon >{props.children}</LoaderIcon>
+            <p>{props.text ? props.text : ''}</p>
         </Button>
   )
 }
