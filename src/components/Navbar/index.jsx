@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'wouter'
 import { FiToggleLeft } from 'react-icons/fi'
 import { NavbarStyled } from './navbar.styles'
+import Btn from 'components/button'
 
 export default function Navbar () {
   return (
@@ -12,9 +13,9 @@ export default function Navbar () {
         <a href="/home#skills">Conocimientos</a>
         <Link href="/notes">Notas</Link>
         <Link href="/jobs">Proyectos</Link>
-        <button>
+        <Btn>
           <FiToggleLeft />
-        </button>
+        </Btn>
       </nav>
     </NavbarStyled>
   )
