@@ -50,6 +50,14 @@ const light = {
     socialbox: {
       background: 'var(--gray-light)',
       text: 'var(--gray-dark)'
+    },
+    code: {
+      background: 'var(--gray-light)',
+      text: 'var(--black)',
+      card: {
+        background: 'var(--gray)',
+        text: 'var(--black-light)'
+      }
     }
   }
 }
