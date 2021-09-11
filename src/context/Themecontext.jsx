@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import light from 'styles/schemes/light'
 import dark from 'styles/schemes/dark'
-import { setCookie, parseCookies } from 'nookies'
+import { setToLS, getFromLS } from 'utils/storage'
 
 const THEMES = {
   dark,
@@ -13,45 +13,20 @@ export const useTheme = () => {
   const [themeLoaded, setThemeLoaded] = useState(false)
 
   useEffect(() => {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', handlePrefersColorScheme)
-    if (parseCookies()?.theme) {
-      const { theme } = parseCookies()
-      setTheme(THEMES[theme])
-      setThemeLoaded(true)
+    const localTheme = getFromLS('theme')
+    if (localTheme) {
+      localTheme ? setTheme(THEMES[localTheme]) : setTheme(theme)
     } else {
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme(THEMES.dark)
-        setThemeLoaded(true)
-      } else {
-        setTheme(THEMES.light)
-        setThemeLoaded(true)
-      }
+      setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? dark : light)
     }
-    return () => {
-      window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', handlePrefersColorScheme)
-    }
+    setThemeLoaded(true)
   }, [])
 
-  const handlePrefersColorScheme = ({ matches }) => {
-    if (matches) {
-      setTheme(THEMES.dark)
-    } else {
-      setTheme(THEMES.light)
-    }
+  const setMode = mode => {
+    const switched = mode === 'light' ? 'dark' : 'light'
+    setToLS('theme', switched)
+    setTheme(THEMES[switched])
   }
 
-  const switchTheme = (current) => {
-    console.log('holi')
-    const switched = current === 'light' ? 'dark' : 'light'
-    if (current === light) {
-      setCookie(null, 'theme', switched, { path: '/' })
-      setTheme(THEMES.dark)
-      setThemeLoaded(true)
-    } else {
-      setTheme(THEMES.light)
-      setThemeLoaded(true)
-    }
-  }
-
-  return { theme, switchTheme, themeLoaded, setThemeLoaded }
+  return { theme, setMode, themeLoaded, setThemeLoaded }
 }

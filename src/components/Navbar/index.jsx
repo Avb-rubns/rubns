@@ -6,10 +6,10 @@ import Btn from 'components/button'
 import { useTheme } from 'context/Themecontext'
 
 export default function Navbar () {
-  const { theme, switchTheme } = useTheme()
+  const { theme, setMode } = useTheme()
 
   const changeTheme = () => {
-    switchTheme(theme.title)
+    setMode(theme.title)
   }
 
   return (
