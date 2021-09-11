@@ -5,7 +5,6 @@ import { FiSearch } from 'react-icons/fi'
 
 export default function Jobs () {
   return (
-    <>
       <Template>
         <TemplateJN title="Proyectos"
          type="text"
@@ -16,6 +15,5 @@ export default function Jobs () {
           <FiSearch />
         </TemplateJN>
       </Template>
-    </>
   )
 }

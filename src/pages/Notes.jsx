@@ -4,9 +4,8 @@ import { FiSearch } from 'react-icons/fi'
 import TemplateJN from 'components/Template-JN'
 export default function Notes () {
   return (
-    <>
       <Template>
-      <TemplateJN title="Notas"
+        <TemplateJN title="Notas"
          type="text"
          placeholder="Ingrese su busqueda"
          textBtn="Buscar"
@@ -14,6 +13,5 @@ export default function Notes () {
           <FiSearch />
         </TemplateJN>
       </Template>
-    </>
   )
 }

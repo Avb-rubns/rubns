@@ -46,7 +46,7 @@ export default function TemplateJN (props) {
         {res && <Finds>
           <h3>{props.search}</h3>
           <div>
-            <RenderCard result={res} />
+            <RenderCard result={res}/>
           </div>
         </Finds>}
         </>

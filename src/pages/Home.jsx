@@ -26,7 +26,6 @@ import {
 
 export default function Home () {
   return (
-    <>
       <Template>
         <ContainerPage
          about="Acerca de mí"
@@ -94,6 +93,5 @@ export default function Home () {
           </LoaderSkills>
         </ContainerPage>
       </Template>
-    </>
   )
 }
