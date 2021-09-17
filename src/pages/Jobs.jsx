@@ -11,6 +11,7 @@ export default function Jobs () {
          placeholder="Ingrese su busqueda"
          textBtn="Buscar"
          code="Ver Código"
+         msj="No tenemos un proyecto sobre el lenguaje 😥 "
          text="Ver proyecto" >
           <FiSearch />
         </TemplateJN>

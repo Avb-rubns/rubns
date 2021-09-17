@@ -31,18 +31,15 @@ export default function Home () {
          about="Acerca de mí"
          im="Soy"
 
-         biograph ="  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-         Doloremque corrupti officia qui enim nisi dolor magnam quod
-         dicta eligendi, ea repellendus ipsa excepturi vel delectus
-         odio iste nobis quaerat voluptas."
+         biograph =" Hola soy una persona tranquila, responsable, honesta
+                    y no me gusta la inputualidad, me gusta leer, escuchar música y amo los tacos  😁🌮 .
+                    Yo escribiria que soy un tipazo pero ya lo escribi 😅😂"
 
          education=" Educación"
 
-         infoEdu="Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-         Doloremque corrupti officia qui enim nisi dolor magnam quod
-         dicta eligendi, ea repellendus ipsa excepturi vel delectus
-         odio iste nobis quaerat voluptas."
+         infoEdu={{ studies: [['Lic. Ciencias de la computación', 'Benemeriata Universidad Autonoma de Puebla', '2015-Actual '], ['Certificate', ' Scrum Foundation Professional', 'Oct 2020']] }}
          skills="Conocimientos"
+
          >
           <ContainerLading
           name="Rubén Sánchez Rugerio"

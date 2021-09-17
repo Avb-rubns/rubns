@@ -9,6 +9,8 @@ export default function Notes () {
          type="text"
          placeholder="Ingrese su busqueda"
          textBtn="Buscar"
+         method = ""
+         msj="No pudimos encontrar alguna nota 😥 "
          text="Leer nota" >
           <FiSearch />
         </TemplateJN>
