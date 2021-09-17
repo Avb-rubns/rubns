@@ -1,5 +1,7 @@
 
 import { Section, Article } from './home.styles'
+import List from 'components/list'
+import Image from 'components/Image'
 
 export default function ContainerPage (props) {
   return (
@@ -8,15 +10,18 @@ export default function ContainerPage (props) {
             {props.children[0]}
         </main>
         <Section id="about-me">
-            <h3>{props.about}</h3>
+            <h2>{props.about}</h2>
             <div>
+                <Image url="https://pbs.twimg.com/profile_images/1396983019513262081/m1ki4OfU_200x200.jpg"/>
                 <div>
-                    <h3>{props.im}</h3>
-                    <p>{props.biograph}</p>
-                </div>
-                <div>
-                    <h3>{props.education}</h3>
-                    <p>{props.infoEdu}</p>
+                    <article>
+                        <h3>{props.im}</h3>
+                        <p>{props.biograph}</p>
+                    </article>
+                    <article>
+                        <h3>{props.education}</h3>
+                        <List info={props.infoEdu} />
+                    </article>
                 </div>
             </div>
         </Section>

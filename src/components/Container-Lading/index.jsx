@@ -18,7 +18,7 @@ export default function ContainerLading (props) {
                 </Box>
             </div>
             <Arrow href="#about-me">
-            {props.children[3] }
+              {props.children[3] }
             </Arrow>
         </Container>
   )
