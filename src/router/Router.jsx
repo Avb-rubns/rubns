@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Notes from '../pages/Notes'
 import Jobs from '../pages/Jobs'
 import ErrorF from '../pages/Found-Error'
+import Read from 'pages/Read'
 function App () {
   return (
     <>
@@ -15,6 +16,7 @@ function App () {
         <Route path="/notes" component={Notes} />
         <Route path="/home#about-me" component={Home} />
         <Route path="/jobs" component={Jobs} />
+        <Route path="/Read" component={Read} />
         <Route component={ErrorF} />
       </Switch>
     </>
