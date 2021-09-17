@@ -11,8 +11,8 @@ export default function CardInfo (props) {
               <RenderTag tags={props.tags}/>
           </div>
           <div>
-            {props.link && <Btn size="14" link={props.link} text="Ver proyecto"/>}
-            {props.code && <Btn size="14" code={props.code} text="Ver código"/>}
+            {props.link && <Btn size="14" text="Ver proyecto"/>}
+            {props.code && <Btn size="14" method="paren.open(props.code)" text="Ver código"/>}
           </div>
     </Card>
   )
