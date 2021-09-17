@@ -17,6 +17,10 @@ export const Header = styled.main`
         h1 {
             font-size: 32px;
         }
+        h2{
+            padding: 0;
+            margin: 0;
+        }
     }
 `
 
@@ -42,4 +46,7 @@ padding: 1rem 2rem;
             text-align: center;
         }
     }
+`
+export const msj = styled.h2`
+padding:0
 `

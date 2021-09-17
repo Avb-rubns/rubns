@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const InputStyled = styled.input`
+export const Input = styled.input`
     background-color: var(--gray-ligh);
     border-radius: 2px;
     padding: .5rem .5rem;
@@ -14,4 +14,7 @@ export const InputStyled = styled.input`
         font-size: 14px;
         width: 95%;
     }
+`
+export const Label = styled.label`
+position: absolute;
 `

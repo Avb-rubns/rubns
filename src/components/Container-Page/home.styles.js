@@ -9,13 +9,19 @@ export const Section = styled.section`
     align-items: center;
     justify-items: center;
     justify-content: center;
-    gap: 2rem;
-    padding: 1rem;
-    div{
+    gap:1rem;
+    padding:0 5rem;
+    article{
+        margin-top :3rem ;
+        width: 100%;
+    }
+
+    & > div{
         display: flex;
         flex-direction: row;
         align-items: center;
-        & >div{
+        padding: 1rem;
+        div{
             display: flex;
             flex-direction: column;
             justify-items: center;
@@ -23,20 +29,17 @@ export const Section = styled.section`
             align-items: center;
             font-size: 14px;
             padding: 0 3rem;
-             div{
-                display: flex;
-                flex-direction: column;
-                justify-items: center;
-                justify-content: center;
-                align-items: center;
-                font-size: 14px;
-                padding: 0 3rem;
-                
-            }
         }
     }
     @media all and (max-width: 768px) {
-        & >div {flex-direction: column;}
+        padding: .2rem;
+        gap:.5rem;
+        & > div {
+            flex-direction: column;
+            div{
+                padding: .5rem 1rem;
+            }
+        }
         h1 {
             font-size: 34px;
         }

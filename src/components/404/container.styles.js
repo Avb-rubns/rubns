@@ -7,7 +7,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 &  > div{
-    margin-top: 10%;
+    margin-top: 1rem;
     background: ${({ theme }) => theme.colors.code.background};
     width: calc(100vw - 25%);
     height: 500px;
