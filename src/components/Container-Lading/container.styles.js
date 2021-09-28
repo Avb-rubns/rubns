@@ -21,6 +21,10 @@ export const Container = styled.section`
     @media all and (max-width: 768px) {
   h1 {
     font-size: 34px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 24px;
   }
 }
 
