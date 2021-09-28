@@ -7,36 +7,6 @@ import { useState } from 'react'
 
 export default function TemplateJN (props) {
   const [result, setResult] = useState({})
-  const res = {
-    data: [
-      {
-        title: 'Instalacion de PyQt5 desde CLI',
-        description: 'En esta nota muestro como instalar y configurar el paquete de pyqt (creación de interfaces)',
-        tags: ['Python', 'PYQT5', 'Programación', 'CLI'],
-        code: 'https://github.com/davidp46/todo-app-client/blob/main/src/components/button/button.styles.js'
-      },
-      {
-        title: 'Instalacion de PyQt5 desde CLI',
-        description: 'En esta nota muestro como instalar y configurar el paquete de pyqt (creación de interfaces)',
-        tags: ['Python', 'PYQT5', 'Programación'],
-        code: 'https://github.com/davidp46/todo-app-client/blob/main/src/components/button/button.styles.js'
-      },
-      {
-        title: 'Instalacion de PyQt5 desde CLI',
-        description: 'En esta nota muestro como instalar y configurar el paquete de pyqt (creación de interfaces)',
-        tags: ['Python', 'PYQT5', 'Programación', 'CLI'],
-        code: 'https://github.com/davidp46/todo-app-client/blob/main/src/components/button/button.styles.js',
-        link: 'rubns.me'
-      },
-      {
-        title: 'Instalacion de PyQt5 desde CLI',
-        description: 'En esta nota muestro como instalar y configurar el paquete de pyqt (creación de interfaces)',
-        tags: ['Python', 'Programación'],
-        code: 'https://github.com/davidp46/todo-app-client/blob/main/src/components/button/button.styles.js',
-        link: 'rubns.me'
-      }
-    ]
-  }
   const [error, setError] = useState(false)
   const [find, setFind] = useState('')
   const [visible, setVible] = useState(false)
@@ -45,8 +15,8 @@ export default function TemplateJN (props) {
     if (find !== '') {
       setVible(true)
       setError(false)
-      setInfo(true)
-      setResult(res)
+      setInfo(false)
+      setResult(result)
     } else {
       setError(true)
       setVible(false)

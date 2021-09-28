@@ -10,7 +10,7 @@ export default function Notes () {
          placeholder="Ingrese su busqueda"
          textBtn="Buscar"
          method = ""
-         msj="No pudimos encontrar alguna nota 😥 "
+         msj="No tenemos conexion con la información intente en otro momento😥 "
          text="Leer nota" >
           <FiSearch />
         </TemplateJN>
