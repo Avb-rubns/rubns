@@ -19,7 +19,6 @@ align-items: center;
         display: flex;
         flex-direction: row;
         & > h1{
-        font-family: 'NotoSans SC Bold';
         font-size: 64px;
         margin:0 5%;
         
@@ -54,7 +53,6 @@ height: 60%;
 width: calc( 100vw - calc(100vw * .85));
 background: ${({ theme }) => theme.colors.code.card.background};
 h1{
-    font-family: 'NotoSans SC Bold';
     font-size: 64px;
     color: ${({ theme }) => theme.colors.code.card.text}; ;
 }
