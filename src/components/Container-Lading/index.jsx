@@ -1,10 +1,12 @@
 import { Container, Box, Arrow } from './container.styles'
 import LoaderIcon from 'components/LoaderIcon'
 import { H1, H2 } from 'components/Labels/labels.styles'
+import Logo from 'components/icons'
 
 export default function ContainerLading (props) {
   return (
         <Container id ="init">
+            <Logo/>
             <H1 weigth="700">{props.name}</H1>
             <H2 weigth="500">{props.occupation}</H2>
             <div>
