@@ -1,5 +1,6 @@
 import { ContainerSkill } from './container.styles'
 import LoaderIcon from 'components/LoaderIcon'
+import { P } from 'components/Labels/labels.styles'
 
 export default function Skillbox (props) {
   return (
@@ -7,7 +8,7 @@ export default function Skillbox (props) {
             <LoaderIcon>
                 {props.children}
             </LoaderIcon>
-            <p>{props.name}</p>
+            <P weigth="500" >{props.name}</P>
         </ContainerSkill>
 
   )

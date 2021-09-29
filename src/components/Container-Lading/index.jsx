@@ -1,11 +1,12 @@
 import { Container, Box, Arrow } from './container.styles'
 import LoaderIcon from 'components/LoaderIcon'
+import { H1, H2 } from 'components/Labels/labels.styles'
 
 export default function ContainerLading (props) {
   return (
         <Container id = {props.id}>
-            <h1>{props.name}</h1>
-            <h2>{props.occupation}</h2>
+            <H1 weigth="700">{props.name}</H1>
+            <H2 weigth="500">{props.occupation}</H2>
             <div>
                 <Box href={props.mail} target="_blank" rel="noopener nofollow" >
                   <LoaderIcon color="var(--gray-dark)" >{props.children[0] }</LoaderIcon>

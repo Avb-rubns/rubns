@@ -4,6 +4,7 @@ import NotFound from 'components/404'
 import Btn from 'components/button'
 import { RenderCard } from 'components/RenderCard'
 import { useState } from 'react'
+import { H1, H3 } from 'components/Labels/labels.styles'
 
 export default function TemplateJN (props) {
   const [result, setResult] = useState({})
@@ -29,7 +30,7 @@ export default function TemplateJN (props) {
   return (
         <>
         <Header>
-            <h1>{props.title}</h1>
+            <H1>{props.title}</H1>
             <div>
                 <Input
                   type="text"
@@ -50,7 +51,7 @@ export default function TemplateJN (props) {
           {error && <NotFound text="No ingresaste una busqueda 😅😄" />}
           {visible &&
           <>
-              {info && <h3>Resultados de la Busqueda:{find}</h3>}
+              {info && <H3>Resultados de la Busqueda:{find}</H3>}
             <div>
               {info ? <RenderCard result={result}/> : <> <NotFound text={props.msj} /></>}
             </div>

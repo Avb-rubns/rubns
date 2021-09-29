@@ -1,12 +1,13 @@
 import React from 'react'
 import { Card, Container, Rectangle } from './container.styles'
+import { H1 } from 'components/Labels/labels.styles'
 
 export default function NotFound (props) {
   return (
     <Container>
         <div>
             <article>
-                <h1>&lt;/&gt;</h1>
+                <H1>&lt;/&gt;</H1>
                 <section>
                     <Rectangle background="--black-light" size="50"/>
                     <Rectangle background="--main-color" size="150" />
@@ -35,12 +36,12 @@ export default function NotFound (props) {
             </section>
 
             <section>
-                <Card><h1>¡UPS!</h1></Card>
-                <Card><h1>404</h1></Card>
-                <Card><h1>😅</h1></Card>
+                <Card><H1>¡UPS!</H1></Card>
+                <Card><H1>404</H1></Card>
+                <Card><H1>😅</H1></Card>
             </section>
         </div>
-        <h1>{props.text}</h1>
+        <H1 weigth="500">{props.text}</H1>
     </Container>
   )
 }

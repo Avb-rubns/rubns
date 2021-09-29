@@ -1,12 +1,13 @@
 import { Card } from 'components/card/card.styled'
 import Btn from 'components/button'
 import { RenderTag } from 'components/RenderTag'
+import { H3, P } from 'components/Labels/labels.styles'
 
 export default function CardInfo (props) {
   return (
         <Card>
-          <h3>{props.title}</h3>
-          <p>{props.description}</p>
+          <H3>{props.title}</H3>
+          <P>{props.description}</P>
           <div>
               <RenderTag tags={props.tags}/>
           </div>
