@@ -4,7 +4,7 @@ import { H1, H2 } from 'components/Labels/labels.styles'
 
 export default function ContainerLading (props) {
   return (
-        <Container id = {props.id}>
+        <Container id ="init">
             <H1 weigth="700">{props.name}</H1>
             <H2 weigth="500">{props.occupation}</H2>
             <div>

@@ -7,7 +7,7 @@ import { H2, H3, P } from 'components/Labels/labels.styles'
 export default function ContainerPage (props) {
   return (
     <>
-        <main id="init">
+        <main>
             {props.children[0]}
         </main>
         <Section id="about-me">
