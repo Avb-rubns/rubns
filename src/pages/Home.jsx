@@ -31,9 +31,7 @@ export default function Home () {
          about="Acerca de mí"
          im="Soy"
 
-         biograph =" Hola soy una persona tranquila, responsable, honesta
-                    y no me gusta la inputualidad, me gusta leer, escuchar música y amo los tacos  😁🌮 .
-                    Yo escribiria que soy un tipazo pero ya lo escribi 😅😂"
+         biograph ="Hola, soy una persona tranquila, responsable, honesta y no me gusta la impuntualidad, me gusta leer, escuchar música y amo los tacos 😁🌮. Yo escribiría que soy un tipazo pero ya lo escribí""
 
          education=" Educación"
 
