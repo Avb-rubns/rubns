@@ -10,6 +10,7 @@ export default function Navbar () {
 
   const changeTheme = () => {
     setMode(theme.title)
+    console.log('click')
   }
 
   return (
