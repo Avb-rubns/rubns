@@ -28,5 +28,5 @@ export const useTheme = () => {
     setTheme(THEMES[switched])
   }
 
-  return { theme, setMode, themeLoaded, setThemeLoaded }
+  return { theme, setMode, themeLoaded }
 }
