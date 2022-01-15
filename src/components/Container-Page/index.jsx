@@ -13,7 +13,7 @@ export default function ContainerPage (props) {
         <Section id="about-me">
             <H2>{props.about}</H2>
             <div>
-                <Image url="https://pbs.twimg.com/profile_images/1442919376928194560/tB1Jq8FI_200x200.jpg"/>
+                <Image url="https://pbs.twimg.com/profile_images/1479278364007579649/aoR8Ug-y_400x400.jpg"/>
                 <div>
                     <article>
                         <H3 weigth="700">{props.im}</H3>
