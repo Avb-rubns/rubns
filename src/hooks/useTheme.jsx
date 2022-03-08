@@ -10,7 +10,6 @@ const THEMES = {
 
 export const useTheme = () => {
   const [theme, setTheme] = useState(light)
-  const [themeLoaded, setThemeLoaded] = useState(false)
 
   useEffect(() => {
     const localTheme = getFromLS('theme')
@@ -19,7 +18,6 @@ export const useTheme = () => {
     } else {
       setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? dark : light)
     }
-    setThemeLoaded(true)
   }, [])
 
   const setMode = mode => {
@@ -28,5 +26,5 @@ export const useTheme = () => {
     setTheme(THEMES[switched])
   }
 
-  return { theme, setMode, themeLoaded }
+  return { theme, setMode }
 }
