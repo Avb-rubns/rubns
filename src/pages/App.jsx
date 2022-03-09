@@ -1,20 +1,12 @@
 import React from 'react'
-import { ThemeProvider } from 'styled-components'
-import { GlobalStyle } from 'styles/globals.styles'
 import Router from 'router/Router'
-import { useTheme } from 'context/Themecontext'
+import { ThemeContextProvider } from 'context/ThemeContext'
 
 function App () {
-  const { theme, themeLoaded } = useTheme()
-
   return (
-  <>
-  {themeLoaded && <ThemeProvider theme={theme}>
-    <GlobalStyle />
-    <Router />
-  </ThemeProvider>
-  }
-  </>
+    <ThemeContextProvider>
+        <Router />
+    </ThemeContextProvider>
   )
 }
 
