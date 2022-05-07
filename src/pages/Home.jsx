@@ -21,7 +21,10 @@ import {
   SiMicrosoftsqlserver,
   SiMysql,
   SiMongodb,
-  SiPhp
+  SiPhp,
+  SiBlazor,
+  SiDotNet,
+  SiCsharp
 } from 'react-icons/si'
 
 export default function Home () {
@@ -84,6 +87,15 @@ export default function Home () {
               </Skillbox>
               <Skillbox name="PHP">
                 <SiPhp />
+              </Skillbox>
+              <Skillbox name="C#">
+                <SiCsharp/>
+              </Skillbox>
+              <Skillbox name="Blazor">
+                <SiBlazor/>
+              </Skillbox>
+              <Skillbox name=".Net">
+                <SiDotNet/>
               </Skillbox>
           </LoaderSkills>
         </ContainerPage>
