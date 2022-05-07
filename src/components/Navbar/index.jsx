@@ -1,16 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from 'context/ThemeContext'
 import { Link } from 'wouter'
 import { FiToggleLeft } from 'react-icons/fi'
 import { NavbarStyled } from './navbar.styles'
 import Btn from 'components/button'
-import { useTheme } from 'context/Themecontext'
 
 export default function Navbar () {
-  const { theme, setMode } = useTheme()
+  const { theme, setMode } = useContext(ThemeContext)
 
   const changeTheme = () => {
     setMode(theme.title)
-    console.log('click')
   }
 
   return (
