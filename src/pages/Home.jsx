@@ -1,4 +1,4 @@
-import Template from '../components/template'
+import Template from 'components/template'
 import Landing from 'components/home/landing'
 import Biograph from 'components/home/bio'
 import { FiMail, FiGithub, FiLinkedin } from 'react-icons/fi'
