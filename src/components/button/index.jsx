@@ -1,5 +1,5 @@
 import LoaderIcon from 'components/loader_Icon'
-import { Button } from './button_Styled'
+import { Button } from 'components/button/button_Styled'
 import { P } from 'components/label/label_Styles'
 
 export default function Btn(props) {

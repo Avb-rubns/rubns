@@ -1,4 +1,4 @@
-import { Card, Container, Rectangle } from './container_Styles'
+import { Card, Container, Rectangle } from 'components/404/container_Styles'
 import { H1 } from 'components/label/label_Styles'
 
 export default function NotFound(props) {
