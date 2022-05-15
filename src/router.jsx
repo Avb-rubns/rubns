@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { Switch, Route, Redirect } from 'wouter'
-import Home from 'pages/home'
+import Home from 'pages/Home'
 import Notes from 'pages/note'
 import Jobs from 'pages/job'
 import ErrorF from 'pages/found_error'
