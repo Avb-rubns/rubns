@@ -1,31 +1,28 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
-    "node": true
+    "es2021": true
   },
   "extends": [
     "plugin:react/recommended",
-    "standard"
+    "standard",
+    "prettier",
+    "plugin:react/jsx-runtime"
   ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
+    "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "settings": {
     "react": {
       "version": "detect"
     }
   },
   "rules": {
-    "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off",
-    "import/no-webpack-loader-syntax": "off"
+    "react/prop-types": "off"
   }
 }
