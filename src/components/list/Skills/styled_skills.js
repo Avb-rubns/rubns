@@ -20,4 +20,13 @@ export const Article = styled.article`
     justify-content: center;
     align-items: center;
   }
+
+  @media all and (max-width: 768px) {
+    height: 110vh;
+    & > div {
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+      font-size: 56px;
+    }
+  }
 `

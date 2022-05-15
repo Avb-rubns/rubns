@@ -10,4 +10,7 @@ export const Section = styled.section`
   justify-content: center;
   gap: 1rem;
   padding: 0 5rem;
+  @media all and (max-width: 768px) {
+    height: 110vh;
+  }
 `
