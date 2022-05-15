@@ -1,4 +1,4 @@
-import Router from 'router/router'
+import Router from 'router'
 import { ThemeContextProvider } from 'context/theme_context'
 
 function App() {
