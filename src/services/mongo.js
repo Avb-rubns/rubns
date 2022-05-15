@@ -3,11 +3,11 @@ import mongoose from 'mongoose'
 const { MONGO_URI } = process.env
 
 export class MongoDBService {
-  constructor () {
+  constructor() {
     this.connect()
   }
 
-  async connect () {
+  async connect() {
     try {
       await mongoose.connect(MONGO_URI, {
         useUnifieldTopology: true,

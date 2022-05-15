@@ -1,13 +1,12 @@
-import LoaderIcon from 'components/LoaderIcon'
-import { Button } from './button.styled'
-import { P } from 'components/Labels/labels.styles'
+import LoaderIcon from 'components/loader_Icon'
+import { Button } from './button_Styled'
+import { P } from 'components/label/label_Styles'
 
-export default function Btn (props) {
+export default function Btn(props) {
   return (
-        <Button type={props.type} size={props.size} onClick={props.method}
-          >
-            <LoaderIcon >{props.children}</LoaderIcon>
-            <P weigth="500" >{props.text ? props.text : ''}</P>
-        </Button>
+    <Button type={props.type} size={props.size} onClick={props.method}>
+      <LoaderIcon>{props.children}</LoaderIcon>
+      <P weigth="500">{props.text ? props.text : ''}</P>
+    </Button>
   )
 }

@@ -49,7 +49,6 @@ const dark = {
         background: 'var(--gray-light)',
         text: 'var(--black-light)'
       }
-
     }
   }
 }

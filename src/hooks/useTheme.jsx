@@ -16,7 +16,9 @@ export const useTheme = () => {
     if (localTheme) {
       localTheme ? setTheme(THEMES[localTheme]) : setTheme(theme)
     } else {
-      setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? dark : light)
+      setTheme(
+        window.matchMedia('(prefers-color-scheme: dark)').matches ? dark : light
+      )
     }
   }, [])
 

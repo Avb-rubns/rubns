@@ -1,28 +1,26 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { Switch, Route, Redirect } from 'wouter'
-import Home from '../pages/Home'
-import Notes from '../pages/Notes'
-import Jobs from '../pages/Jobs'
-import ErrorF from '../pages/Found-Error'
-import Read from 'pages/Read'
-import { GlobalStyle } from 'styles/globals.styles'
-import { ThemeContext } from 'context/ThemeContext'
+import Home from '../pages/home'
+import Notes from '../pages/note'
+import Jobs from '../pages/job'
+import ErrorF from '../pages/found_error'
+import { GlobalStyle } from 'styles/globals_styles'
+import { ThemeContext } from 'context/theme_context'
 import { ThemeProvider } from 'styled-components'
 
-function App () {
+function App() {
   const { theme } = useContext(ThemeContext)
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Switch>
-        <Route exact path='/'>
-          <Redirect to='/home' />
+        <Route exact path="/">
+          <Redirect to="/home" />
         </Route>
         <Route path="/home" component={Home} />
         <Route path="/notes" component={Notes} />
         <Route path="/home#about-me" component={Home} />
         <Route path="/jobs" component={Jobs} />
-        <Route path="/Read" component={Read} />
         <Route component={ErrorF} />
       </Switch>
     </ThemeProvider>
