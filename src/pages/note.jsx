@@ -1,4 +1,4 @@
-import Template from '../components/template'
+import Template from 'components/template'
 import { FiSearch } from 'react-icons/fi'
 import TemplateJN from 'components/template_Job_Note'
 export default function Notes() {

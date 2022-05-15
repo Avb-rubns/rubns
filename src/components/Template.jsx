@@ -1,4 +1,4 @@
-import Navbar from './nav_Bar'
+import Navbar from 'components/nav_Bar/index'
 
 export default function Template({ children }) {
   return (
