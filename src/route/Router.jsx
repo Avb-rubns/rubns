@@ -8,7 +8,7 @@ import { GlobalStyle } from 'styles/globals_styles'
 import { ThemeContext } from 'context/theme_context'
 import { ThemeProvider } from 'styled-components'
 
-function App() {
+function Router() {
   const { theme } = useContext(ThemeContext)
   return (
     <ThemeProvider theme={theme}>
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default Router
