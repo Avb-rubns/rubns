@@ -18,8 +18,6 @@ export default function Navbar() {
         <Link href="/home#init">
           Inicio
         </Link>
-        <Link>
-        </Link>
         <Link href="/home#about-me">Acerca de mi</Link>
         <Link href="/home#skills">Conocimientos</Link>
         <Link href="/notes">Notas</Link>
