@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { ThemeContext } from 'context/theme_context'
-import { Link } from 'wouter'
+import { Link,Redirect} from 'wouter'
 import { FiToggleLeft } from 'react-icons/fi'
 import { NavbarStyled } from './navbar_Styles'
 import Btn from 'components/button'
@@ -15,9 +15,13 @@ export default function Navbar() {
   return (
     <NavbarStyled>
       <nav>
-        <a href="/home#init">Inicio</a>
-        <a href="/home#about-me">Acerca de mi</a>
-        <a href="/home#skills">Conocimientos</a>
+        <Link href="/home#init">
+          Inicio
+        </Link>
+        <Link>
+        </Link>
+        <Link href="/home#about-me">Acerca de mi</Link>
+        <Link href="/home#skills">Conocimientos</Link>
         <Link href="/notes">Notas</Link>
         <Link href="/jobs">Proyectos</Link>
         <Btn method={changeTheme}>
