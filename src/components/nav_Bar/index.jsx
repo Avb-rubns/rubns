@@ -15,9 +15,9 @@ export default function Navbar() {
   return (
     <NavbarStyled>
       <nav>
-        <Redirect href="/home#init">Inicio</Redirect>
-        <Link href="/home#about-me">Acerca de mi</Link>
-        <Link href="/home#skills">Conocimientos</Link>
+        <a href="/home#init">Inicio</a>
+        <a href="/home#about-me">Acerca de mi</a>
+        <a href="/home#skills">Conocimientos</a>
         <Link href="/notes">Notas</Link>
         <Link href="/jobs">Proyectos</Link>
         <Btn method={changeTheme}>
