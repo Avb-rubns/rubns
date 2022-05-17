@@ -18,8 +18,8 @@ export default function Navbar() {
         <a href="/home#init">Inicio</a>
         <a href="/home#about-me">Acerca de mi</a>
         <a href="/home#skills">Conocimientos</a>
-        <Link href="/notes">Notas</Link>
-        <Link href="/jobs">Proyectos</Link>
+        {/* <Link href="/notes">Notas</Link>
+        <Link href="/jobs">Proyectos</Link> */}
         <Btn method={changeTheme}>
           <FiToggleLeft />
         </Btn>
