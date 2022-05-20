@@ -10,6 +10,9 @@ const light = {
       default: 'var(--gray)',
       hover: 'var(--main-color)'
     },
+    location: {
+      color: 'var(--main-color)'
+    },
     input: {
       text: 'var(--black-light)',
       background: 'var(--gray-light)'

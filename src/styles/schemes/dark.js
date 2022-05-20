@@ -9,6 +9,9 @@ const dark = {
       default: 'var(--gray)',
       hover: 'var(--main-color)'
     },
+    active: {
+      color: 'var(--main-color)'
+    },
     input: {
       text: 'var(--gray-light)',
       background: 'var(--black-light)'
