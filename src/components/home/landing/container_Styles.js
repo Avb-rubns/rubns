@@ -21,9 +21,11 @@ export const Container = styled.section`
     h1 {
       font-size: 34px;
       text-align: center;
+      padding: 0 1.3rem;
     }
     h2 {
       font-size: 24px;
+      padding: 0 1rem;
     }
   }
 `
