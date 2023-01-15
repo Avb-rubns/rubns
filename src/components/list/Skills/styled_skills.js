@@ -22,10 +22,11 @@ export const Article = styled.article`
   }
 
   @media all and (max-width: 768px) {
-    height: 110vh;
+    height: 100vh;
+    padding: 0.5rem;
     & > div {
       width: 100%;
-      grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
       font-size: 56px;
     }
   }

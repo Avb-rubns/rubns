@@ -4,7 +4,7 @@ export default function Template({ children }) {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      {children}
     </>
   )
 }

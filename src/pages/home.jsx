@@ -21,8 +21,8 @@ export default function Home() {
 
       <Biograph
         about="Acerca de mí"
-        im="Soy"
-        biograph="Hola, soy una persona tranquila, responsable, honesta y no me gusta la impuntualidad, me gusta leer, escuchar música y amo los tacos 😁🌮. Yo escribiría que soy un tipazo, pero ya lo escribí "
+        im="Hola, Soy"
+        biograph="Como licenciado en ciencias de la computación, soy una persona altamente curiosa y veo a los programas como rompecabezas que deben resolverse mediante el uso del conocimiento y las habilidades adquiridas. Creo que una de las principales satisfacciones de mi campo de estudio es la oportunidad de aplicar mis conocimientos y habilidades para resolver problemas y crear soluciones efectivas. Estoy entusiasmado con la idea de seguir explorando y aprendiendo en mi campo y estoy convencido de que seguiré encontrando retos y oportunidades para poner a prueba mis habilidades y conocimiento"
         education=" Educación"
         infoEdu={{
           studies: [
@@ -31,7 +31,12 @@ export default function Home() {
               'Benemeriata Universidad Autonoma de Puebla',
               '2015 - 2020 '
             ],
-            ['Certificate', ' Scrum Foundation Professional', 'Oct 2020']
+            ['Certificate', ' Scrum Foundation Professional', 'Oct 2020'],
+            [
+              'Designing and Implementing Microsoft',
+              'DevOps Solutions AZ 400T00',
+              'Mar 2022'
+            ]
           ]
         }}
       />

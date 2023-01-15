@@ -7,9 +7,8 @@ export const Container = styled.section`
   align-items: center;
   height: 100vh;
   width: 100%;
-  margin-top: -3rem;
   justify-content: center;
-
+  margin-top: 30px;
   div {
     display: grid;
     grid-auto-flow: column;

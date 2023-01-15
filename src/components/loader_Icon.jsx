@@ -7,7 +7,8 @@ export default function LoaderIcon(props) {
         value={{
           color: props.color
             ? props.color
-            : ({ theme }) => theme.colors.svg.color
+            : ({ theme }) => theme.colors.svg.color,
+          size: props.size ? props.size : '1.5rem'
         }}
       >
         {props.children}

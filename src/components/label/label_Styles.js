@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const P = styled.p`
   font-weight: ${props => (props.weigth ? props.weigth : 400)};
+  text-align: ${props => (props.alingText ? props.alingText : 'justify')};
 `
 export const H1 = styled.h1`
   font-weight: ${props => (props.weigth ? props.weigth : 700)};

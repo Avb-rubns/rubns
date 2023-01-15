@@ -6,4 +6,5 @@ export const Img = styled.img`
   border: 1px;
   color: ${({ theme }) => theme.colors.body.text};
   width: 200px;
+  margin: ${props => (props.margin ? props.margin : 0)};
 `

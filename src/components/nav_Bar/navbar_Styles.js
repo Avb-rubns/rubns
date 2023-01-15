@@ -8,11 +8,11 @@ export const NavbarStyled = styled.header`
   border-bottom: 2px solid ${({ theme }) => theme.colors.nav.border};
   font-size: 16px;
   padding: 1rem 0.75rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   background: ${({ theme }) => theme.colors.body.background};
   color: ${({ theme }) => theme.colors.body.text};
-  z-index: 2;
+  z-index: 1;
 
   nav {
     display: grid;

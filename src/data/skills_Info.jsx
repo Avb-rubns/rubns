@@ -9,11 +9,11 @@ import {
   SiMicrosoftsqlserver,
   SiMysql,
   SiMongodb,
-  SiPhp,
   SiCsharp,
   SiBlazor,
   SiDotnet,
-  SiReact
+  SiReact,
+  SiVuedotjs
 } from 'react-icons/si'
 const SkillsInfo = [
   {
@@ -56,10 +56,7 @@ const SkillsInfo = [
     name: 'MongoDB',
     icon: <SiMongodb />
   },
-  {
-    name: 'PHP',
-    icon: <SiPhp />
-  },
+
   {
     name: 'C#',
     icon: <SiCsharp />
@@ -75,6 +72,10 @@ const SkillsInfo = [
   {
     name: 'React',
     icon: <SiReact />
+  },
+  {
+    name: 'Vue',
+    icon: <SiVuedotjs />
   }
 ]
 

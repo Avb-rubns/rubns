@@ -7,7 +7,7 @@ export default function List({ info }) {
       {info.studies &&
         info.studies.map((text, i) => (
           <Item key={i}>
-            {text[0] && <P>{text[0]}</P>}
+            {text[0] && <P weigth="600">{text[0]}</P>}
             {text[1] && <P>{text[1]}</P>}
             {text[2] && <P>{text[2]}</P>}
           </Item>
